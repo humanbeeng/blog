@@ -1,0 +1,7 @@
+[submodule "themes/hugo-theme-monochrome"]
+	path = themes/hugo-theme-monochrome
+	url = https://github.com/kaiiiz/hugo-theme-monochrome.git
+[submodule "public"]
+	path = public
+	url = https://github.com/humanbeeng/humanbeeng.github.io.git
+	branch = main

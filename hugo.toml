@@ -1,0 +1,4 @@
+baseURL = 'n7j.in'
+languageCode = 'en-us'
+title = "Nithin Raj"
+theme = 'hugo-theme-monochrome'
