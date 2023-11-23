@@ -2,13 +2,12 @@ var toggle = document.getElementById("dark-mode-toggle");
 var darkTheme = document.getElementById("dark-mode-theme");
 
 // probe system default dark mode setting
-var systemDefault = null
-if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
-    systemDefault = "dark";
-} else {
-    systemDefault = "light";
-}
-
+var systemDefault = "light"
+// if (window.matchMedia && window.matchMedia('(prefers-color-scheme: light)').matches) {
+//     systemDefault = "light";
+// } else {
+//     systemDefault = "dark";
+// }
 // use user preference if possible
 var savedTheme = localStorage.getItem("dark-mode-storage") || systemDefault;
 setTheme(savedTheme);
