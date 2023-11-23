@@ -1,9 +1,9 @@
-baseURL = "http://n7j.in/"
-title = "Nithin Raj"
-theme = "manis"
+baseURL = "example.com"
+title = "Manis"
+theme = "manis-hugo-theme"
 
 # Copyright notice. Note: You can use HTML tag here
-copyright = "&copy; 2023 Nithin Raj"
+copyright = "&copy; 2019 Yurizal Susanto"
 pluralizeListTitles = false
 
 # Minimum number of posts before paginate navigation show up
@@ -21,8 +21,8 @@ pygmentsUseClasses = true
 
 [menu]
 	[[menu.main]]
-		name = "Posts"
-		url = "/posts/"
+		name = "Post"
+		url = "/post/"
 	
 	[[menu.main]]
 		name = "About"
@@ -38,16 +38,16 @@ pygmentsUseClasses = true
 	customCSS = []
 	
 	# Site meta description
-	description = "Nithin's Brain Dump"
+	description = "Sweet little Hugo's theme for personal website or blog."
 	# Site's Tagline (Subtitle or Keyword)
-	# tagline = ""
+	tagline = "Nothing sweeter than this"
 	# If true give attribution to this theme
 	themeAttrib = true
 	# URL to license file, can be outside of your domain
 	licenseURL = "/about/license"
 
 	# Configure which sections for Latest Posts
-	mainSections = ["blog", "posts"]
+	mainSections = ["blog", "post"]
 	# Configure which sections for Latest Works
 	workSections = ["work"]
 	
@@ -58,7 +58,7 @@ pygmentsUseClasses = true
 	
 	# Utterances Configuration
 	utterancesRepo = ""
-	utterancesTheme = "github-dark"
+	utterancesTheme = "github-light"
 	utterancesLabel = ""
 
 	# 404 Configuration
@@ -66,7 +66,7 @@ pygmentsUseClasses = true
 	sub404 = "Back to <a href='/'>Home</a>."
 
 	# Color of your website's accent
-	colorTheme = "#000000"
+	colorTheme = "#ff6565"
 	# Maximum number of item in Latest Posts or Works
 	latestCount = 3
 	# Path to site's favicon image
@@ -75,11 +75,18 @@ pygmentsUseClasses = true
 	dateFmt = "Jan 02, 2006"
 
 	# Code Highlighting (HighlightJS)
-	highlightJs = true
+	highlightJs = false
 	highlightJsLanguages = [ "go" ]
-	highlightJsStyle = "nord"
+	highlightJsStyle = "ocean"
 
 	# Social Links
-	email = "heynithin@skiff.com"
-	github = "https://github.com/humanbeeng/"
-	twitter = "https://twitter.com/nithinrajx"
+	email = "mail@yurizal-san.com"
+	github = "https://github.com/yursan9/"
+	twitter = "https://twitter.com/yuri_boya"
+
+
+# Language Configuration
+#[languages.in]
+#	lang = "in"
+#	languageName = "Bahasa Indonesia"
+#	weight = 1
