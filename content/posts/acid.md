@@ -6,11 +6,13 @@ draft = false
 
 #database #system
 
-**Atomicity**
+#### Atomicity
 A transaction is a single unit of execution. Statements within a transaction are either all executed or none. 
 
-**Isolation**
-**Isolation levels**
+#### Isolation
+Transactions are executed independently of one another.
+
+##### Isolation levels
 
 - **Read uncommitted** 
 - **Read committed**
@@ -52,7 +54,8 @@ The decision on which transaction to roll back is typically based on a predefine
 The specific choice of a conflict resolution policy depends on the application's requirements and the desired behaviour in case of conflicts. Each policy has its own trade-offs, and choosing the most appropriate one often involves considering factors such as fairness, performance, and the nature of the application's data and business logic.
 
 
-**Consistency**
+#### Consistency
+
 There is
 1. Consistency in data: Data is just persisted wrong.
 2. Consistency in reads: Data is just read wrong. 
@@ -66,7 +69,7 @@ In Reads
 - If a transaction writes something, is it available instantly for read?
 - Affects system as a whole.
 
-**Durability** 
+#### Durability
 - Committed transactions should be persisted.
 Techniques 
 - WAL (Write ahead log): Gets flushed to disk immediately 
