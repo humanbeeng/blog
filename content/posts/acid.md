@@ -57,15 +57,18 @@ The specific choice of a conflict resolution policy depends on the application's
 #### Consistency
 
 There is
+
 1. Consistency in data: Data is just persisted wrong.
 2. Consistency in reads: Data is just read wrong. 
 
 In Data
+
 - Referential integrity 
 - Data during transactions 
 - During failure and recovery 
 
 In Reads
+
 - If a transaction writes something, is it available instantly for read?
 - Affects system as a whole.
 
