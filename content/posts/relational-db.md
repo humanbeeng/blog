@@ -1,10 +1,9 @@
 +++
-title = 'Relational Db'
+title = 'Relational Databases'
 date = 2023-11-28T11:57:59+05:30
 draft = false
 +++
 
-# Relational database
 #system #interview #database #relational-database
 
 **Normal forms**
