@@ -34,7 +34,7 @@ Decreases write performance since index table also has to be written.
 _Learn about serialisation and internals of B+ Trees_ 
 
 
-#### Database locking** 
+#### Database locking
 
 **Read lock/Shared lock**
 When acquired, other transactions can read the locked rows, but cannot modify.
@@ -76,7 +76,7 @@ Transaction does not wait for locks to be released by other transaction. It just
 **SKIP LOCKED**
 Transaction just acquires lock on the unlocked rows, performs transaction on unlocked rows and skips the ones which are locked.
 
-#### Scaling relational database**
+#### Scaling relational database
 
 **Read replicas**
 As name suggests
