@@ -9,3 +9,4 @@ where we provide business intelligence to financial institutions to make smart d
 My passion for software engineering grew exponentially after watching [Silicon Valley, HBO](https://www.hbo.com/silicon-valley)(100% recommend). I am obsessed with this idea of becoming a self sufficient 
 person who can create whatever he can think of. I believe I'm on a right path to achieve this absurd goal.
 
+Converting known unknowns to knowns.
