@@ -8,3 +8,7 @@
 [submodule "themes/hugo-texify3"]
 	path = themes/hugo-texify3
 	url = https://github.com/michaelneuper/hugo-texify3.git
+[submodule "humanbeeng.github.io"]
+	path = humanbeeng.github.io
+	url = https://github.com/humanbeeng/humanbeeng.github.io.git
+	branch = main
